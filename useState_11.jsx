@@ -1,6 +1,6 @@
 //Count will incrise once or three times?
 
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 
 export default function MyIncreaser() {
   const [count, setCount] = useState(0);
