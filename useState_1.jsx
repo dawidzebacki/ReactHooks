@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Counter = () => {
+export default function App() {
   const [count, setCount] = useState(0);
   
   const lazyUpdate = () => {
@@ -18,5 +18,3 @@ const Counter = () => {
     </div>
   );
 };
-
-export default Counter;
