@@ -1,4 +1,4 @@
-//Count will incrise once or three times?
+//Count will increase once or three times?
 
 import React, { useState } from "react";
 
