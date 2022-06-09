@@ -1,3 +1,5 @@
+// When we are not displaying counter there is no need to rerenders...
+
 import React, { useState, useEffect } from "react";
 
 export default function ClickButton(props) {
