@@ -9,6 +9,7 @@ export default function ClickButton(props) {
 
   const onClickRequest = () => {
     //fetch something depends on counter
+    console.log(count)
   };
 
   useEffect(() => {
