@@ -19,8 +19,8 @@ const AsyncCounter = () => {
   return (
     <div>
       <p>You clicked {counterRef.current} times</p>
-      <button onClick={handleIncrement}>Click me</button>
-      <button onClick={handleAlertClick}>Show alert</button>
+      <button onClick={handleIncrement}>Increment count</button>
+      <button onClick={handleAlertClick}>Open modal with count</button>
     </div>
   );
 }
