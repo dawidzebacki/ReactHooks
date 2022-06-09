@@ -1,3 +1,5 @@
+//Counter will increase as many times as you click?
+
 import React, { useState } from "react";
 
 export default function App() {
