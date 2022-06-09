@@ -3,11 +3,11 @@ import React, { useState, useRef } from "react";
 const AsyncCounter = () => {
   
   const counterRef = useRef(0);
-  const [count, setCount] = useState(false);
+  const [count, setCount] = useState(0);
   
   const handleIncrement = () => {
-    counterRef.current++;
-    setCount(!count);
+    counterRef.current++
+    setCount(counterRef.current);
   };
   
   function handleAlertClick() {
@@ -18,9 +18,9 @@ const AsyncCounter = () => {
   
   return (
     <div>
-      <p>You clicked {counterRef.current} times</p>
-      <button onClick={handleIncrement}>Increment count</button>
-      <button onClick={handleAlertClick}>Open modal with count</button>
+      <p>You clicked {count} times</p>
+      <button onClick={handleIncrement}>Click me</button>
+      <button onClick={handleAlertClick}>Show alert</button>
     </div>
   );
 }
